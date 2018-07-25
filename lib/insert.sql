@@ -74,7 +74,7 @@ INSERT INTO bears (
   alive
 )
 VALUES (
-  "Melissa"
+  "Melissa",
   4,
   "F",
   "black",

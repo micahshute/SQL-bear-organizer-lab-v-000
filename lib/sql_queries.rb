@@ -27,5 +27,5 @@ def counts_number_of_bears_with_goofy_temperaments
 end
 
 def selects_bear_that_killed_Tim
-  'SELECT * FROM bears WHERE GROUP BY name HAVING COUNT(name) = 0'
+  'SELECT * FROM bears GROUP BY name WHERE COUNT(name) = 0'
 end
